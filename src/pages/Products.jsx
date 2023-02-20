@@ -1,14 +1,14 @@
 import React from 'react';
 import { Card, Carousel, ListGroup } from 'react-bootstrap';
-import first1 from '../assets/AMPLIACION SPA UÑAS/1.png'
-import first2 from '../assets/AMPLIACION SPA UÑAS/2.png'
-import first3 from '../assets/AMPLIACION SPA UÑAS/2.png'
+import first1 from '../../public/images/AMPLIACION SPA UÑAS/1.png'
+import first2 from '../../public/images/AMPLIACION SPA UÑAS/1.png'
+import first3 from '../../public/images/AMPLIACION SPA UÑAS/1.png'
 
 const Products = () => {
     return (
         <div className='products'>
         <Card style={{ width: '20rem' }}>
-            <div>
+            
             <Carousel>
                 <Carousel.Item>
                     <img
@@ -61,11 +61,7 @@ const Products = () => {
                 <ListGroup.Item>Acabados</ListGroup.Item>
                 {/* <ListGroup.Item>Vestibulum at eros</ListGroup.Item> */}
             </ListGroup>
-            <Card.Body>
-                <Card.Link href="#">Card Link</Card.Link>
-                <Card.Link href="#">Another Link</Card.Link>
-            </Card.Body>
-            </div>
+            
         </Card>
         <Card style={{ width: '20rem' }}>
         <Carousel>
@@ -120,10 +116,6 @@ const Products = () => {
                 <ListGroup.Item>Acabados</ListGroup.Item>
                 {/* <ListGroup.Item>Vestibulum at eros</ListGroup.Item> */}
             </ListGroup>
-            <Card.Body>
-                <Card.Link href="#">Card Link</Card.Link>
-                <Card.Link href="#">Another Link</Card.Link>
-            </Card.Body>
         </Card>
         <Card style={{ width: '20rem' }}>
         <div>
@@ -179,10 +171,6 @@ const Products = () => {
                 <ListGroup.Item>Acabados</ListGroup.Item>
                 {/* <ListGroup.Item>Vestibulum at eros</ListGroup.Item> */}
             </ListGroup>
-            <Card.Body>
-                <Card.Link href="#">Card Link</Card.Link>
-                <Card.Link href="#">Another Link</Card.Link>
-            </Card.Body>
             </div>
         </Card>
         </div>

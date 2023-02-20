@@ -1,9 +1,12 @@
 import React from 'react';
 
+
 const Home = () => {
+
+
     return (
         <div>
-            Home
+          <img src="images/AMPLIACION SPA UÑAS/1.png" alt="" />
         </div>
     );
 };
