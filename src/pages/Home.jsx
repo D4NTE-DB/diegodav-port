@@ -6,7 +6,7 @@ const Home = () => {
 
     return (
         <div>
-          <img src="images/AMPLIACION SPA UÑAS/1.png" alt="" />
+          {/* <img src="images/AMPLIACION SPA UÑAS/1.png" alt="" /> */}
         </div>
     );
 };
