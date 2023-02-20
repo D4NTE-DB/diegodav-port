@@ -61,7 +61,7 @@ const Products = () => {
                 <ListGroup.Item>Acabados</ListGroup.Item>
                 {/* <ListGroup.Item>Vestibulum at eros</ListGroup.Item> */}
             </ListGroup>
-            
+
         </Card>
         <Card style={{ width: '20rem' }}>
         <Carousel>
@@ -118,7 +118,7 @@ const Products = () => {
             </ListGroup>
         </Card>
         <Card style={{ width: '20rem' }}>
-        <div>
+
             <Carousel>
                 <Carousel.Item>
                     <img
@@ -171,7 +171,7 @@ const Products = () => {
                 <ListGroup.Item>Acabados</ListGroup.Item>
                 {/* <ListGroup.Item>Vestibulum at eros</ListGroup.Item> */}
             </ListGroup>
-            </div>
+        
         </Card>
         </div>
     );
