@@ -2,7 +2,7 @@ import React from 'react';
 import { Card, Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import 'boxicons';
-import logo from '../assets/diegodav-ico.jpg'
+import logo from '../../public/images/iconos/deigodav-icos.jpeg'
 
 const AppNavBar = () => {
     return (

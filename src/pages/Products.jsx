@@ -32,6 +32,28 @@ const Products = () => {
                             <img
                                 className="d-block w-100"
                                 src={data.image2}
+                                alt="first1 slide"
+                            />
+                            <Carousel.Caption>
+                                {/* <h3>first1 slide label</h3> */}
+                                {/* <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
+                            </Carousel.Caption>
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img
+                                className="d-block w-100"
+                                src={data.image3}
+                                alt="first1 slide"
+                            />
+                            <Carousel.Caption>
+                                {/* <h3>first1 slide label</h3> */}
+                                {/* <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
+                            </Carousel.Caption>
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img
+                                className="d-block w-100"
+                                src={data.image4}
                                 alt="Second slide"
                             />
 
@@ -43,7 +65,7 @@ const Products = () => {
                         <Carousel.Item>
                             <img
                                 className="d-block w-100"
-                                src={data.image3}
+                                src={data.image5}
                                 alt="Third slide"
                             />
 
@@ -57,10 +79,9 @@ const Products = () => {
                     </Carousel>
 
                     <Card.Body>
-                        <Card.Title>Diseño 1</Card.Title>
+                        <Card.Title>{data.title}</Card.Title>
                         <Card.Text>
-                            Some quick example text to build on the card title and make up the
-                            bulk of the card's content.
+                           {data.info}
                         </Card.Text>
                     </Card.Body>
                     <ListGroup className="list-group-flush">
