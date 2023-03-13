@@ -19,27 +19,6 @@ const Home = () => {
             <h3 style={{color: 'black' }}>PRODUCTOS</h3>
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src=""
-            alt="Second slide"
-          />
-
-          <Carousel.Caption>
-            <h3>PRODUCTOS</h3>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src=""
-            alt="Third slide"
-          />
-          <Carousel.Caption>
-            <h3>PRODUCTOS</h3>
-          </Carousel.Caption>
-        </Carousel.Item>
       </Carousel>
       <Carousel  as={Link} to='/desings' variant='dark' className='home-access' interval='5000000'>
         <Carousel.Item>
@@ -52,27 +31,7 @@ const Home = () => {
             <h3 style={{ color: 'black' }}>DISEÑOS</h3>
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src=""
-            alt="Second slide"
-          />
-
-          <Carousel.Caption>
-            <h3>DISEÑOS</h3>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src=""
-            alt="Third slide"
-          />
-          <Carousel.Caption>
-            <h3>DISEÑOS</h3>
-          </Carousel.Caption>
-        </Carousel.Item>
+        
       </Carousel>
       <Carousel as={Link} to='/products' variant='dark' className='home-access' interval='5000000'>
         <Carousel.Item>
@@ -83,27 +42,6 @@ const Home = () => {
           />
           <Carousel.Caption>
             <h3 style={{ color: 'black' }}>APRENDE CON NOSOTROS</h3>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src=""
-            alt="Second slide"
-          />
-
-          <Carousel.Caption>
-            <h3>APRENDE CON NOSTROS</h3>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src=""
-            alt="Third slide"
-          />
-          <Carousel.Caption>
-            <h3>APRENDE CON NOSTROS</h3>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
