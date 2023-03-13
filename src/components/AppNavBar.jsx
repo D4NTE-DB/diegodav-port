@@ -14,7 +14,6 @@ const AppNavBar = () => {
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
                         <Nav.Link as={Link} to='/'>Inicio</Nav.Link>
-                        <Nav.Link as={Link} to='/products'>Diseños</Nav.Link>
                         <NavDropdown title="Productos" id="basic-nav-dropdown">
                             <NavDropdown.Item as={Link} to='/products' >Diseños</NavDropdown.Item>
                             <NavDropdown.Item href="#action/3.2">
@@ -26,19 +25,23 @@ const AppNavBar = () => {
                                 Separated link
                             </NavDropdown.Item>
                         </NavDropdown>
+                        <Nav.Link as={Link} to='/products'>Diseños</Nav.Link>
+                        <Nav.Link as={Link} to='/learn' style={{width: '230px'}}>Aprende con nosotros</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
             <div className='cont-us'>
-                <Card style={{ width: '8rem' }}>
+                <Card style={{ width: '12rem' }}>
                     <Card.Body>
                         <Card.Title>Contactanos</Card.Title>
-                        <Card.Link href='https://api.whatsapp.com/send?phone=573002573877&text=hola.&fbclid=PAAaZCOmbywdDamgSlH-zo3stoH7U3AXdxtwa11KWKs_a4RRaJpwtx4Q8SHrM'>
+                        <div className='socials'>
+                        <Card.Link style={{position: 'relative', right: '21px', top: '28px'}} href='https://api.whatsapp.com/send?phone=573002573877&text=hola.&fbclid=PAAaZCOmbywdDamgSlH-zo3stoH7U3AXdxtwa11KWKs_a4RRaJpwtx4Q8SHrM'>
                             <box-icon type='logo' name='whatsapp'></box-icon>
                         </Card.Link>
                         <Card.Link href="https://www.instagram.com/diegodavila_a/?hl=es">
                             <box-icon type='logo' name='instagram'></box-icon>
                         </Card.Link>
+                        </div>
                     </Card.Body>
                 </Card>
             </div>
