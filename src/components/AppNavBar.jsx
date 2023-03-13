@@ -33,7 +33,7 @@ const AppNavBar = () => {
                 </Navbar.Collapse>
             </Container>
             <div className='cont-us'>
-                <Card style={{ width: '12%' }}>
+                <Card style={{ width: '100%' }}>
                     <Card.Body>
                         <Card.Title>Contactanos</Card.Title>
                         <div className='socials'>
