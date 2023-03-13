@@ -109,7 +109,7 @@
   .Home{
     display: flex !important;
     flex-direction: column;
-    gap: 130px;
+    gap: 40px;
     width: 100%;
   }
 }
