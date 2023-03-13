@@ -7,8 +7,8 @@ const Home = () => {
 
 
   return (
-    <div style={{width: '50%'}}>
-      <Carousel as={Link} to='/products' variant='dark' style={{ width: '90%' }} interval='5000000'>
+    <div className='Home'>
+      <Carousel as={Link} to='/products' variant='dark' className='home-access' interval='5000000'>
         <Carousel.Item>
           <img
             src="images/iconos/deigodav-icos.jpeg"
@@ -41,7 +41,7 @@ const Home = () => {
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
-      <Carousel  as={Link} to='/products' variant='dark' style={{ width: '90%' }} interval='5000000'>
+      <Carousel  as={Link} to='/desings' variant='dark' className='home-access' interval='5000000'>
         <Carousel.Item>
           <img
             src="images/iconos/deigodav-icos.jpeg"
@@ -74,7 +74,7 @@ const Home = () => {
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
-      <Carousel as={Link} to='/products' variant='dark' style={{ width: '90%' }} interval='5000000'>
+      <Carousel as={Link} to='/products' variant='dark' className='home-access' interval='5000000'>
         <Carousel.Item>
           <img
             src="images/iconos/deigodav-icos.jpeg"

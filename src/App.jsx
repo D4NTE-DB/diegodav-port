@@ -6,6 +6,7 @@ import Home from './pages/Home'
 import AppNavBar from './components/AppNavBar'
 import Products from './pages/Products'
 import LearnWithUs from './pages/LearnWithUs'
+import Desings from './pages/Desings'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -19,6 +20,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/products" element={<Products />} />
+        <Route path='/desings' element={<Desings />} />
         <Route path="/learn" element={<LearnWithUs />} />
       </Routes>
     </HashRouter>

@@ -46,7 +46,7 @@
   gap: 2rem;
 }
 
-.products{
+.desings{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -93,3 +93,29 @@
   text-align: center;
 }
 
+.carousel-indicators{
+  margin-left: 0 !important;
+}
+
+/* HOME INFORMATION */
+
+.Home{
+  display: flex !important;
+  flex-direction: column;
+  /* width: 70%; */
+}
+
+@media (max-width: 970px) {
+  .Home{
+    display: flex !important;
+    flex-direction: column;
+    gap: 130px;
+    width: 100%;
+  }
+}
+
+.home-access{
+  width: 90%;
+  
+  font-size: 1rem;
+}
