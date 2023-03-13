@@ -1,22 +1,20 @@
-*{
+* {
   margin: 0 auto;
   width: 100%;
   box-sizing: border-box;
 }
 
-.d-block.w-100 {
-  max-width: 100% !important;
-  height: 300px;
-}
+/* CONTACT US CARD FIXED */
 
 .cont-us {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   text-align: center;
   position: fixed;
   top: 76%;
   font-size: 8px;
   z-index: 10;
+  
 }
 
 @media (max-width: 700px) {
@@ -25,31 +23,50 @@
     flex-direction: column;
     text-align: center;
     position: fixed;
-    top: 76%;
-    right: -31%;
+    top: 60%;
+    right: -45%;
     font-size: 8px;
     z-index: 10;
+    gap: .2rem
   }
-  
+
+}
+
+/* INSTAGRAM ADJUSTMENT BOOTSTRAP CONFIG */
+.card-link+.card-link {
+  margin-left: 0 !important;
+}
+
+/* ICONS ADJUSTMENT */
+
+box-icon {
+  width: 70% !important;
 }
 
 /* AZUL CLARO #4683c2 */
 /* AZUL OSCURO #31446c */
 
+/* DISINGS CSS  */
 
+.desings {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
 
+/* TARJETAS DE DISINGS */
 .card {
   margin: 0 auto;
   margin-top: 5%;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
 }
 
-.desings{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+/* IMAGES EN LAS TARJETAS TAMANO */
+
+.d-block.w-100 {
+  max-width: 320px !important;
+  height: 300px;
 }
 
 /* .card > div{
@@ -62,51 +79,47 @@
 }
 
 @media (max-width: 422px) {
-  .navbar-brand{
+  .navbar-brand {
     margin-right: -10px;
     width: 250px;
   }
 }
 
-.d-block.w-100{
-  max-width: 320px !important;
-  height: 300px;
-}
 
 @media (max-width: 1095px) {
-  .navbar-brand{
+  .navbar-brand {
     max-width: 300px;
   }
 }
 
-.socials{
+.socials {
   position: relative;
-  bottom: 15px;
-  right: 5px;
+  bottom: 10px;
+  right: 2px;
 }
 
-.navbar-toggler.collapsed{
+.navbar-toggler.collapsed {
   width: 12%;
 }
 
-.me-auto.navbar-nav{
+.me-auto.navbar-nav {
   text-align: center;
 }
 
-.carousel-indicators{
+.carousel-indicators {
   margin-left: 0 !important;
 }
 
 /* HOME INFORMATION CSS*/
 
-.Home{
+.Home {
   display: flex !important;
   flex-direction: column;
   /* width: 70%; */
 }
 
 @media (max-width: 970px) {
-  .Home{
+  .Home {
     display: flex !important;
     flex-direction: column;
     gap: 40px;
@@ -114,13 +127,13 @@
   }
 }
 
-.home-access{
+.home-access {
   width: 90%;
-  
+
   font-size: 1rem;
 }
 
-.carousel-caption{
+.carousel-caption {
 
   position: static !important;
   /* top: 130px; */
@@ -129,8 +142,8 @@
 
 /* APPNAVBAR CSS  */
 
-.navbar-toggler-icon{
-  
+.navbar-toggler-icon {
+
   position: relative !important;
   right: 7px;
 

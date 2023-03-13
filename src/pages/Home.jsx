@@ -33,7 +33,7 @@ const Home = () => {
         </Carousel.Item>
         
       </Carousel>
-      <Carousel as={Link} to='/products' variant='dark' className='home-access' interval='5000000'>
+      <Carousel as={Link} to='/learn' variant='dark' className='home-access' interval='5000000'>
         <Carousel.Item>
           <img
             src="images/iconos/deigodav-icos.jpeg"

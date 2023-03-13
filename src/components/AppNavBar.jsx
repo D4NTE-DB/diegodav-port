@@ -33,11 +33,11 @@ const AppNavBar = () => {
                 </Navbar.Collapse>
             </Container>
             <div className='cont-us'>
-                <Card style={{ width: '12rem' }}>
+                <Card style={{ width: '12%' }}>
                     <Card.Body>
                         <Card.Title>Contactanos</Card.Title>
                         <div className='socials'>
-                        <Card.Link style={{position: 'relative', right: '21px', top: '28px'}} href='https://api.whatsapp.com/send?phone=573002573877&text=hola.&fbclid=PAAaZCOmbywdDamgSlH-zo3stoH7U3AXdxtwa11KWKs_a4RRaJpwtx4Q8SHrM'>
+                        <Card.Link href='https://api.whatsapp.com/send?phone=573002573877&text=hola.&fbclid=PAAaZCOmbywdDamgSlH-zo3stoH7U3AXdxtwa11KWKs_a4RRaJpwtx4Q8SHrM'>
                             <box-icon type='logo' name='whatsapp'></box-icon>
                         </Card.Link>
                         <Card.Link href="https://www.instagram.com/diegodavila_a/?hl=es">
